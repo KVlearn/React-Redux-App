@@ -15,8 +15,8 @@ return(
                 <CardTitle><h3>{item.name}</h3></CardTitle>
                 <CardSubtitle>{item.type}</CardSubtitle>
                 <CardSubtitle>{item.active}</CardSubtitle>
-                <CardSubtitle>Orbit Duration in Years:{item.orbit_duration_yr}</CardSubtitle>
-                <CardSubtitle>Mass:{item.dry_mass_kg}</CardSubtitle>
+                <CardSubtitle>Orbit Duration(years):{item.orbit_duration_yr}</CardSubtitle>
+                <CardSubtitle>Mass(kg):{item.dry_mass_kg}</CardSubtitle>
                 <CardSubtitle>First Flight:{item.first_flight}</CardSubtitle>
                 <CardText>{item.description}</CardText>
                 <CardTitle>HeatShield:</CardTitle>

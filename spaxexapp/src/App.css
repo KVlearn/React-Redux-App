@@ -45,7 +45,7 @@ h1{
   width: 28rem;
   background-color: black;
   color: snow;
-  border-radius: 2rem;
+  border-radius: 6px;
   box-shadow: 2px 4px lightblue;
  line-height: 30px;
 }
@@ -60,7 +60,7 @@ h1{
   margin-bottom: 6rem;
   background-color: black;
   color:white;
-  border-radius: 4px;
+  border-radius: 6px;
   box-shadow: 2px 4px lightblue;
 }
 .dragon{
@@ -69,13 +69,14 @@ h1{
   flex-direction: column;
   justify-content: space-evenly; 
   align-items: center; 
+  padding:4px 4px;
   width: 60%;
   margin: 1rem auto;
   margin-top:2rem;
   margin-bottom: 6rem;
   background-color: black;
   color:white;
-  border-radius: 2rem;
+  border-radius: 6px;
   box-shadow: 2px 4px lightblue;
  line-height: 30px;
 }
