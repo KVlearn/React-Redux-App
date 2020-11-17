@@ -39,12 +39,10 @@ h1{
 
 .mainInfo{
   display:flex;
-  justify-content: space-evenly;
-  align-self: flex-start;
-  padding-top: 3rem;
-  margin:3rem auto;
+  flex-wrap: wrap;
+  padding-top: 1rem;
   margin-left: 32rem;
-  width: 30%;
+  width: 28rem;
   background-color: black;
   color: snow;
   border-radius: 2rem;
@@ -92,3 +90,68 @@ h3{
   height:50rem
 }
 
+ 
+ /* for mobile - with Media Pixel of up to 500px display column*/
+ @media only screen and (max-width: 500px){
+
+  .myNav {
+    align-items: flex-start;
+    align-self: flex-start;
+    flex-direction: column;
+    margin-left: auto;
+  }
+
+.mainInfo{
+  margin-left: 2rem;
+  width:20rem;
+  height: 30rem;
+
+}
+
+.dragon{
+  align-items: center;
+  width:20rem;
+}
+.crew{
+  align-items: center;
+  width:25rem;
+  
+}
+.crewimage{
+  object-fit: contain;
+  width: 23rem;
+  height:30rem
+}
+ 
+}
+
+/************** FOR 800 PX TAB**********************/
+@media only screen and (min-width:501px) and (max-width:810px) 
+{
+  .myNav {
+    align-items: flex-start;
+    align-self: flex-start;
+    flex-direction: column;
+    margin-left: auto;
+  }
+
+.mainInfo{
+  margin-left: 2rem;
+  width:20rem;
+   
+}
+
+.dragon{
+  align-items: center;
+  width:20rem;
+}
+.crew{
+  align-items: center;
+  width:25rem;
+}
+.crewimage{
+  object-fit: contain;
+  width: 23rem;
+  height:30rem
+}
+}

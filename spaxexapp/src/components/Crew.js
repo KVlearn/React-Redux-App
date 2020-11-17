@@ -31,6 +31,7 @@ function Crew(props){
 
 return(
     <div>
+      <h3>Meet the Crew!</h3>
         {props.isLoading ? renderLoader() :  
          props.data.map(item=>{
                 return(
