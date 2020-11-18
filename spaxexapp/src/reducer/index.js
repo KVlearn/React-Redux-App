@@ -14,6 +14,7 @@ switch(action.type){
         return {
             ...state,
             isLoading: true,
+            error:'',
         }
     case GET_INFO_SUCCESS:
         return{
