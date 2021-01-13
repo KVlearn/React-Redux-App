@@ -1,0 +1,158 @@
+.App {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url('https://images.unsplash.com/photo-1517976547714-720226b864c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  background-size:cover;
+  height:50rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+ 
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; 
+  align-items: flex-end;
+  margin-bottom: 2rem;
+  padding-top:2rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  background-color: black;
+} 
+
+h1{
+  font-size: 1.5rem;
+  color: whitesmoke;
+  text-shadow: 1px 2px lightblue;
+}
+
+.myNav {
+  margin-left: 40rem;
+}
+
+.mainInfo{
+  display:flex;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  margin-left: 32rem;
+  width: 28rem;
+  background-color: black;
+  color: snow;
+  border-radius: 6px;
+  box-shadow: 2px 4px lightblue;
+ line-height: 30px;
+}
+
+.crew{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  background-color: black;
+  color:white;
+  border-radius: 6px;
+  box-shadow: 2px 4px lightblue;
+}
+.dragon{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly; 
+  align-items: center; 
+  padding:4px 4px;
+  width: 60%;
+  margin: 1rem auto;
+  margin-top:2rem;
+  margin-bottom: 6rem;
+  background-color: black;
+  color:white;
+  border-radius: 6px;
+  box-shadow: 2px 4px lightblue;
+ line-height: 30px;
+}
+
+h3{
+  margin-top:2rem;
+  padding-top:2rem;
+}
+.crewimage{
+  object-fit: contain;
+  width: 40rem;
+  height:50rem
+}
+
+ 
+ /* for mobile - with Media Pixel of up to 500px display column*/
+ @media only screen and (max-width: 500px){
+
+  .myNav {
+    align-items: flex-start;
+    align-self: flex-start;
+    flex-direction: column;
+    margin-left: auto;
+  }
+
+.mainInfo{
+  margin-left: 2rem;
+  width:20rem;
+  height: 30rem;
+
+}
+
+.dragon{
+  align-items: center;
+  width:20rem;
+}
+.crew{
+  align-items: center;
+  width:25rem;
+  
+}
+.crewimage{
+  object-fit: contain;
+  width: 23rem;
+  height:30rem
+}
+ 
+}
+
+/************** FOR 800 PX TAB**********************/
+@media only screen and (min-width:501px) and (max-width:810px) 
+{
+  .myNav {
+    align-items: flex-start;
+    align-self: flex-start;
+    flex-direction: column;
+    margin-left: auto;
+  }
+
+.mainInfo{
+  margin-left: 2rem;
+  width:20rem;
+   
+}
+
+.dragon{
+  align-items: center;
+  width:20rem;
+}
+.crew{
+  align-items: center;
+  width:25rem;
+}
+.crewimage{
+  object-fit: contain;
+  width: 23rem;
+  height:30rem
+}
+}
